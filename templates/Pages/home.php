@@ -32,6 +32,10 @@
         display:flex;
         justify-content:center;
     }
+    .btns{
+        display:flex;
+        justify-content:center;
+    }
 </style>
 <body>
     <div class="a">
@@ -40,11 +44,13 @@
             <h2 class="subtittle">Administrator</h2>
             <br>
             <br>
-            <div class="btn">
-                <a class="button-4" href="<?= $this->Url->build('/News') ?>">Notícias </a>
-            </div>
-            <div class="btn">
-                <a class="button-4" href="<?= $this->Url->build('/News') ?>">Notícias </a>
+            <div class="btns">
+                <div class="btn">
+                    <a class="button-4" href="<?= $this->Url->build('/News/releases') ?>">Notícias </a>
+                </div>
+                <div class="btn">
+                    <a class="button-4" href="<?= $this->Url->build('/News') ?>">Dashboard</a>
+                </div>
             </div>
         </div>
     </div>

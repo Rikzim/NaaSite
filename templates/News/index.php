@@ -26,7 +26,7 @@
                 <td><?= $new->created->format(DATE_RFC850) ?></td>
                 <td> 
                     <?= $this->Html->link('Editar', ['action' => 'edit', $new->id], array('class' => 'button-1')) ?> 
-                    <?= $this->Form->postLink( 'Deletar', ['action' => 'delete', $new->id], array('class' => 'button-1'), ['confirm' => 'Nah, id lose?']) ?>
+                    <?= $this->Form->postLink( 'Deletar', ['action' => 'delete', $new->id], array('class' => 'button-1', 'confirm' => 'Deseja deletar?')) ?>
                 </td>
             </tr>
             <?php endforeach; ?>
