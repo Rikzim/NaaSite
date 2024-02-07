@@ -18,6 +18,7 @@
                         'placeholder'=>'Add a Title',
                         'style' =>'
                             background-color:transparent;
+                            color: white;
                             height : 45px;
                             width : 500px;
                             border-radius: 5px;
@@ -33,6 +34,7 @@
                         'style' =>
                         '
                             background-color:transparent;
+                            color: white;
                             height : 45px;
                             width : 500px;
                             border-radius: 5px;
@@ -47,6 +49,7 @@
                         'style' =>
                         '
                             background-color:transparent;
+                            color: white;
                             width : 500px;
                             height: 150px;
                             border-radius: 5px;

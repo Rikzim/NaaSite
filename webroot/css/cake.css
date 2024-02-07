@@ -1,21 +1,19 @@
 /* Miligram overrides */
-@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 body {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    font-family: 'Titan One', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .top-nav-links,
 .side-nav,
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Titan One', sans-serif;
+    font-family: 'Switzer', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
+    font-weight: 100;
     color: white;
 }
 
@@ -163,6 +161,8 @@ td{
     padding: 2rem;
     box-shadow: 2px 11px 5px 0px rgba(0,0,0,0.18);
     background-color: #292929;
+    margin-bottom: 5rem;
+    
 }
 .top-nav-title a {
     margin-left: 11rem;

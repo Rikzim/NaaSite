@@ -18,6 +18,7 @@
                         'placeholder'=>'Add a Title',
                         'style' =>'
                         background-color:transparent;
+                        color:white;
                         height : 45px;
                         width : 500px;
                         border-radius: 5px;
@@ -33,6 +34,7 @@
                         'style' =>
                         '
                         background-color:transparent;
+                        color:white;
                         height : 45px;
                         width : 500px;
                         border-radius: 5px;
@@ -47,6 +49,7 @@
                         'style' =>
                         '
                         background-color:transparent;
+                        color:white;
                         width : 500px;
                         height: 150px;
                         border-radius: 5px;
@@ -58,7 +61,16 @@
                 ?>
                 <br>
                 <?php
-                echo $this->Form->button(__('Salvar artigo')); echo $this->Form->end();
+                echo $this->Form->button(__('Salvar artigo'), array('style' => '
+                color: white;
+                    background-color: blueviolet;
+                    width: 200px;
+                    height: 55px;
+                    border-radius:5px;
+                    border:none;
+                    font-size:15px;
+                ', 'class' => 'button-3'));
+                echo $this->Form->end();
                 ?>  
             </td>
         </tr>
