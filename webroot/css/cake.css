@@ -1,0 +1,310 @@
+/* Miligram overrides */
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Titan One', sans-serif;
+    font-weight: 400;
+}
+
+.top-nav-links,
+.side-nav,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Titan One', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    color: white;
+}
+
+a {
+    color: white;
+    color:white;
+    -webkit-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+}
+
+.button-1 {
+    color: white;
+    padding: 12px 30px 12px 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    color:white;
+    border: 2.5px solid blueviolet;
+    -webkit-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+    transition: .3s;
+    margin-right: 1.5rem;
+}
+
+.button-1:hover,.button-1:focus,.button-1:active  {
+    padding: 12px 30px 12px 30px;
+    color: white;
+    box-shadow: #282828 5px 5px 0px -1.9px, blueviolet 5.1px 5.1px ;
+    transition: .3s;
+}
+
+.button-2 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    padding: 9px 30px 9px 30px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color:white;
+    border: 2.5px solid blueviolet;
+    -webkit-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+    transition: .3s;
+    margin-right: 1.5rem;
+}
+
+.button-2:hover,.button-2:focus,.button-2:active  {
+    padding: 9px 30px 9px 30px;
+    color: white;
+    box-shadow: #282828 5px 5px 0px -1.9px, blueviolet 5.1px 5.1px ;
+    transition: .3s;
+}
+
+.button-3:hover,.button-3:focus,.button-3:active  {
+    padding: 9px 30px 9px 30px;
+    color: white;
+    box-shadow: #282828 5px 5px 0px -1.9px, blueviolet 5.1px 5.1px ;
+    transition: .3s;
+}
+
+.button-4 {
+    color: white;
+    padding: 12px 40px 12px 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    color:white;
+    border: 2.5px solid blueviolet;
+    -webkit-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+    transition: .3s;
+    margin-right: 1.5rem;
+    font-size: 25px;
+}
+
+.button-4:hover,.button-4:focus,.button-4.actions  {
+    padding: 12px 41px 12px 41px;
+    color: white;
+    box-shadow: #282828 5px 5px 0px -1.9px, blueviolet 5.1px 5.1px ;
+    transition: .3s;
+}
+a:hover,
+a:focus,
+a:active  {
+    color: #8a2be2;;
+    -webkit-transition:all 0.5s easeout;
+    transition:all 0.2s ease-out;
+    
+}
+
+.side-nav a,
+.top-nav-links a,
+th a,
+.actions a {
+    color: #606c76;
+}
+
+.side-nav a:hover,
+.side-nav a:focus,
+.actions a:hover,
+.actions a:focus {
+    color:#2f85ae;
+}
+
+/* Utility */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Main */
+body {
+    background: #282828;
+}
+
+.content {
+    margin-top: 5rem;
+    padding: 1.5rem;
+    background: #282828;
+    border-radius: 0.4rem;
+    /* Thanks Stripe */
+    box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.1),
+        0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+.actions a {
+    font-weight: bold;
+    padding: 0 0.4rem;
+}
+.actions a:first-child {
+    padding-left: 0;
+}
+th {
+    white-space: nowrap;
+}
+
+td{
+    padding: 2.2rem;
+}
+
+/* Nav bar */
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    box-shadow: 2px 11px 5px 0px rgba(0,0,0,0.18);
+    background-color: #292929;
+}
+.top-nav-title a {
+    margin-left: 11rem;
+    font-size: 2.4rem;
+    color: blueviolet;
+}
+.top-nav-title span {
+    color: #000000;
+}
+.top-nav-links a {
+    color: white;
+    padding: 12px 30px 12px 30px;
+    background-color: blueviolet;
+    margin-right: 11rem;
+}
+
+.top-nav-title a,
+.top-nav-links a {
+    font-weight: bold;
+}
+
+.side-nav-item {
+    display: block;
+    padding: 0.5rem 0;
+}
+
+/* View action */
+.view.content .text {
+    margin-top: 1.2rem;
+}
+.related {
+    margin-top: 2rem;
+}
+
+/* Flash messages */
+.message {
+    padding: 1rem;
+
+    background: #eff8ff;
+    color: #2779bd;
+
+    border-color: #6cb2eb;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+.message.hidden {
+    display: none;
+}
+.message.success {
+    background: #e3fcec;
+    color: #1f9d55;
+    border-color: #51d88a;
+}
+.message.warning {
+    background: #fffabc;
+    color: #8d7b00;
+    border-color: #d3b800;
+}
+.message.error {
+    background: #fcebea;
+    color: #cc1f1a;
+    border-color: #ef5753;
+}
+
+/* Forms */
+.input.radio,
+.input.checkbox {
+    margin-bottom: 2.0rem;
+}
+.input.radio input,
+.input.checkbox input {
+    margin: 0;
+}
+.input.radio label,
+.input.checkbox label {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.input.radio label > input,
+.input.checkbox label > input {
+    margin-right: 1.0rem;
+}
+.input.radio label:first-of-type {
+    margin-bottom: 2.0rem;
+}
+
+/* Paginator */
+.paginator {
+    text-align: right;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+.pagination li {
+    margin: 0 0.5rem;
+}
+.prev.disabled a,
+.next.disabled a {
+    cursor: not-allowed;
+    color: #606c76;
+}
+.asc:after {
+    content: " \2193";
+}
+.desc:after {
+    content: " \2191";
+}
+
+/* Error */
+.error-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+    .top-nav {
+        margin: 0 auto;
+    }
+    .side-nav {
+        margin-bottom: 1rem;
+    }
+    .heading {
+        margin-bottom: 1rem;
+    }
+    .side-nav-item {
+        display: inline;
+        margin: 0 1.5rem 0 0;
+    }
+    .asc:after {
+        content: " \2192";
+    }
+    .desc:after {
+        content: " \2190";
+    }
+}
