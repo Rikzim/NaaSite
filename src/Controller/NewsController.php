@@ -10,7 +10,17 @@
         }
         public function index()
         {
-            $this->set('news', $this->News->find('all'));
+             // Use o modelo PostsTable
+            $this->loadModel('News');
+
+            // Encontre todos os registros ordenados por 'ID' em ordem crescente
+            $news = $this->News->find('all', [
+                'order' => ['id' => 'ASC']
+            ]);
+
+            // Passe os dados para a view
+            $this->set('news', $news);
+            
             $this->layout = false;
         }
         public function releases()
