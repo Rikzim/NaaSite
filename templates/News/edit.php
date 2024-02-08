@@ -61,7 +61,7 @@
                 ?>
                 <br>
                 <?php
-                echo $this->Form->button(__('Salvar artigo'), array('style' => '
+                echo $this->Form->button(__('Salvar'), array('style' => '
                 color: white;
                     background-color: blueviolet;
                     width: 200px;

@@ -46,10 +46,10 @@
             <br>
             <div class="btns">
                 <div class="btn">
-                    <a class="button-4" href="<?= $this->Url->build('/News/releases') ?>">Notícias </a>
+                    <a class="button-4" href="<?= $this->Url->build('/News/releases') ?>">Releases</a><!-- Ver as noticias-->
                 </div>
                 <div class="btn">
-                    <a class="button-4" href="<?= $this->Url->build('/News') ?>">Dashboard</a>
+                    <a class="button-4" href="<?= $this->Url->build('/News') ?>">Dashboard</a><!-- Painel de gestão de noticias-->
                 </div>
             </div>
         </div>

@@ -35,7 +35,8 @@
     }
 </style>
 <body>
-    <?php foreach($news as $new): ?>
+    <?php foreach($news as $new): ?> <!-- Loop para mostrar o conteudo-->
+        
         <div class="ui inverted fluid styled accordion">
             <div class="title">
                 <i class="dropdown icon"></i>
@@ -60,7 +61,7 @@
         </div>
     <?php endforeach; ?>
     <script>
-        $(".ui.accordion").accordion();
+        $(".ui.accordion").accordion();/**Inicializar o accordion no site */
     </script>
 </body>
 </html>

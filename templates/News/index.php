@@ -7,9 +7,9 @@
 </head>
 <body>
     <div class="content">
-        <h1>Notícias</h1>
-        <?= $this->Html->link('Adicionar artigo',['action' => 'add'], array('class' => 'button-1')) ?>
-        <?= $this->Html->link('Ver artigos', ['action' => 'releases'], array('class' => 'button-1')) ?>
+        <h1>Releases</h1>
+        <?= $this->Html->link('Adicionar release',['action' => 'add'], array('class' => 'button-1')) ?>
+        <?= $this->Html->link('Ver releases', ['action' => 'releases'], array('class' => 'button-1')) ?><!-- LINK PARA VER AS NOTICIAS -->
         <br>
         <br>
         <table>
@@ -19,7 +19,7 @@
                 <th>Data de Publicação</th>
                 <th>Opções</th>
             </tr>
-            <?php foreach($news as $new): ?>
+            <?php foreach($news as $new): ?><!-- Loop para mostrar o conteudo-->
             <tr>
                 <td><?= $new->id ?></td>
                 <td><?= $this->Html->link($new->title, ['action' => 'view', $new->id]) ?></td>
